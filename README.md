@@ -27,14 +27,14 @@ The project was developed for a Macquarie University assignment and has been cle
 
 ```text
 .
-├── travel_assistant_cli.py          # Runnable command-line app
-├── src/travel_assistant/            # Reusable assistant logic
-├── notebooks/                       # Sanitized assignment notebook
-├── docs/                            # Assignment report and project notes
-├── requirements.txt                 # Python dependencies
-├── .env.example                     # Example API-key configuration
-├── .gitignore                       # Local secrets/cache exclusions
-└── LICENSE                          # MIT license
+|-- travel_assistant_cli.py          # Runnable command-line app
+|-- src/travel_assistant/            # Reusable assistant logic
+|-- notebooks/                       # Sanitized assignment notebook
+|-- docs/                            # Assignment report and project notes
+|-- requirements.txt                 # Python dependencies
+|-- .env.example                     # Example API-key configuration
+|-- .gitignore                       # Local secrets/cache exclusions
+`-- LICENSE                          # MIT license
 ```
 
 ## Setup
@@ -124,4 +124,3 @@ I developed the LLM-powered travel assistant workflow, designed prompts for diff
 ## Security Note
 
 API keys should never be stored directly in notebooks or source code. This repository uses `.env` and `COHERE_API_KEY` so credentials stay local.
-
